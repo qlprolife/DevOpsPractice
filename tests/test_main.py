@@ -12,3 +12,6 @@ def tetst_hello_world(client):
     assert response.status_code == 200
     assert response.status_code != 500
     assert response.json() == "FastAPI World!!"
+
+def test_example():
+    return    
